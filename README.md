@@ -69,7 +69,7 @@ fig.tight_layout()
 
 ```
 import numpy as np
-import matplotlib.pyplot as pit
+import matplotlib.pyplot as plt
 from skimage.color import rgb2gray
 from skimage import data
 from skimage.filters import gaussian
@@ -99,7 +99,7 @@ ax[1].set_title("Active Contour Image")
 
 ```
 import numpy as np
-import matplotlib.pyplot as pit
+import matplotlib.pyplot as plt
 from skimage.color import rgb2gray
 from skimage import data
 from skimage.filters import gaussian
