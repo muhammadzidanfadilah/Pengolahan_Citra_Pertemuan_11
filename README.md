@@ -14,7 +14,7 @@ image = invert(data.horse())
 
 skeleton = skeletonize(image)
 
-fig, axes = pit.subplots(nrows=1, ncols=2, figsize=(8, 4),
+fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(8, 4),
                          sharex=True, sharey=True)
 
 ax = axes.ravel()
@@ -83,7 +83,7 @@ y = 100 + 100*np.sin(s)
 init = np.array([x, y]).T
 
 cntr = active_contour(gaussian(img, 3),init,alpha=0.015, beta=10, gamma=0.001)
-fig, ax = pit.subplots(1, 2, figsize=(7, 7))
+fig, ax = plt.subplots(1, 2, figsize=(7, 7))
 ax[0].imshow(img, cmap=pit.cm.gray)
 ax[0].set_title("Original Image")
 
@@ -113,7 +113,7 @@ y = 100 + 100*np.sin(s)
 init = np.array([x, y]).T
 
 cntr = active_contour(gaussian(img, 3),init,alpha=0.015, beta=10, gamma=0.001)
-fig, ax = pit.subplots(1, 2, figsize=(7, 7))
+fig, ax = plt.subplots(1, 2, figsize=(7, 7))
 ax[0].imshow(img, cmap=pit.cm.gray)
 ax[0].set_title("Original Image")
 
