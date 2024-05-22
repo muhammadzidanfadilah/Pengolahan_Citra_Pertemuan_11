@@ -1,3 +1,11 @@
+# Tugas Pengolahan Citra Pertemuan 11
+
+```
+Nama  : Muhammad Zidan Fadillah
+Nim   : 312210277
+Kelas : TI.22.A.2
+Mata Kuliah : Pengolahan Citra
+```
 
 # Menggunakan Skeletonize(image)
 
