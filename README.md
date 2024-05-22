@@ -7,6 +7,33 @@ Kelas : TI.22.A.2
 Mata Kuliah : Pengolahan Citra
 ```
 
+# Convex hull
+# input
+```
+import matplotlib.pyplot as plt
+
+from skimage.morphology import convex_hull_image
+from skimage import data, img_as_float
+from skimage.util import invert
+
+image = invert(data.lfw_subset())
+
+chull = convex_hull_image(image)
+
+fig, axes = plt.subplots(1, 2, figsize=(8, 4))
+ax = axes.ravel()
+
+ax[1].set_title('Transformed picture')
+ax[1].imshow(chull, cmap=plt.cm.gray)
+ax[1].set_axis_off()
+
+plt.tight_layout()
+plt.show()
+```
+
+# Output
+![convex](https://github.com/muhammadzidanfadilah/Pengolahan_Citra_Pertemuan_11/assets/115553474/2e3c1d90-b6f0-4b4a-a67a-bebabc787de0)
+
 # Menggunakan Skeletonize(image)
 
 # Horse
