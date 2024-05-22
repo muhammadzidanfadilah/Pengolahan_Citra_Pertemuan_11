@@ -33,6 +33,7 @@ fig.tight_layout()
 
 
 # Moon
+# Input
 ```
 from skimage.morphology import skeletonize
 from skimage import data
@@ -96,7 +97,8 @@ ax[1].set_title("Active Contour Image")
 # Output
 ![astronaut](https://github.com/muhammadzidanfadilah/Pengolahan_Citra_Pertemuan_11/assets/115553474/379c64b5-0c75-4be8-974c-618127fdf1b8)
 
-
+# Cat
+# Input
 ```
 import numpy as np
 import matplotlib.pyplot as plt
